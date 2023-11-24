@@ -1,0 +1,14 @@
+# Questions
+project_name:
+  type: str
+  help: "Project name"
+
+project_description:
+  type: str
+  help: "Project description"
+
+# Settings
+_templates_suffix: .jinja
+_commit: 0.1.0
+_skip_if_exists:
+  - "pyproject.toml"
